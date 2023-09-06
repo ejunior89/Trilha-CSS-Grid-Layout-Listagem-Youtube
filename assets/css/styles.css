@@ -1,0 +1,151 @@
+/* reset básico para remover estilos padrão */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ /* body */
+ body {
+   background-color: #f0f0f0;
+   font-family: Arial, sans-serif;
+ }
+ 
+ /* cabeçalho */
+ .header {
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .header-move-bar {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+   padding: 10px 20px;
+ }
+ 
+ .left-header-itens {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .menu-header,
+ .youtube-header {
+   margin-right: 20px;
+ }
+ 
+ /* Estilizar o formulário de pesquisa */
+ .search-header {
+   display: grid;
+   grid-template-columns: 1fr auto;
+   align-items: center;
+   margin-right: 20px;
+ }
+ 
+ .btn-search-header {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 14px;
+ }
+ 
+ .submit-header {
+   background-color: whitesmoke;
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   padding: 10px 20px;
+   cursor: pointer;
+ }
+ 
+ /* Estilizar os itens do cabeçalho à direita */
+ .right-header-itens {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+ }
+ 
+ .upload-header,
+ .notif-header,
+ .profile-header {
+   margin-left: 20px;
+   border-radius: 5px;
+ }
+
+ .profile-header img {
+   width: 50px;
+   height: 30px;
+   border-radius: 40px;
+ }
+ 
+ /* Estilizar a barra central */
+ .central-bar {
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   margin: 20px;
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Estilizar o menu principal */
+ .main-menu {
+   padding: 20px;
+ }
+ 
+ .main-menu-move-bar {
+   margin-bottom: 20px;
+ }
+ 
+ .main-menu-itens {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ .main-row-box {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   text-decoration: none;
+   color: #333;
+ }
+ 
+ .main-row-box img {
+   margin-right: 10px;
+ }
+ 
+ /* Estilizar o conteúdo principal */
+ .videos {
+   padding: 20px;
+ }
+ 
+ .video-group {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 20px;
+   margin-bottom: 20px;
+ }
+ 
+ .video-container {
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   border-radius: 4px;
+ }
+ 
+ .perfil-video img {
+   margin-right: 10px;
+   border-radius: 50%;
+ }
+ 
+ /* Adicione mais estilos conforme necessário */
+ 
+ .social-links {
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   margin-top: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   color: #333;
+   text-align: center;
+ }
