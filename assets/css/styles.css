@@ -1,11 +1,11 @@
-/* reset básico para remover estilos padrão */
+/* reset básico */
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
  }
  
- /* body */
+ 
  body {
    background-color: #f0f0f0;
    font-family: Arial, sans-serif;
@@ -34,7 +34,7 @@
    margin-right: 20px;
  }
  
- /* Estilizar o formulário de pesquisa */
+ /* formulário de pesquisa */
  .search-header {
    display: grid;
    grid-template-columns: 1fr auto;
@@ -58,7 +58,7 @@
    cursor: pointer;
  }
  
- /* Estilizar os itens do cabeçalho à direita */
+ /* cabeçalho à direita */
  .right-header-itens {
    display: flex;
    align-items: center;
@@ -78,7 +78,7 @@
    border-radius: 40px;
  }
  
- /* Estilizar a barra central */
+ /* barra central */
  .central-bar {
    display: grid;
    grid-template-columns: 1fr 3fr;
@@ -87,7 +87,7 @@
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
  }
  
- /* Estilizar o menu principal */
+ /* menu principal */
  .main-menu {
    padding: 20px;
  }
@@ -113,7 +113,7 @@
    margin-right: 10px;
  }
  
- /* Estilizar o conteúdo principal */
+ /* conteúdo principal */
  .videos {
    padding: 20px;
  }
@@ -137,7 +137,6 @@
    border-radius: 50%;
  }
  
- /* Adicione mais estilos conforme necessário */
  
  .social-links {
    background-color: #fff;
